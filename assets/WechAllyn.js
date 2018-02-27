@@ -75,10 +75,11 @@ $(document).ready(function () {
                             }
 
                             data_sv={
-                                sv_fc:sv_fc,
-                                sv_temp:sv_temp.toFixed(1),
+                                
                                 sv_sis:sv_sis,
                                 sv_dia:sv_dia,
+                                sv_fc:sv_fc,
+                                sv_temp:sv_temp.toFixed(1),
                                 sv_oximetria:sv_oximetria.substr(0,4),
                                 equipo_ns:serial_numers[0],
                                 sv_key:xml_file,
